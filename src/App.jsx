@@ -1,6 +1,8 @@
+import BarChart from "./BarChart"
+
 const App = () => {
     return (
-        <>Hello World</>
+        <BarChart/>
     )
 }
 
