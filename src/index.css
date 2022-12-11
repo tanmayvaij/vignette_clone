@@ -7,3 +7,48 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+
+#home {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background: url("../public/section-main.webp") center center no-repeat;
+    background-size: cover;
+}
+
+#navbar {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 50px;
+}
+
+#navbar_left span {
+    font-size: 20px;
+}
+
+#navbar_left b {
+    padding: 3px 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: #00a3ff;
+    font-size: 14px;
+}
+
+#navbar_right {
+    background-color: #ff007a;
+    border-radius: 50px;
+    padding: 4px 12px;
+    display: flex;
+    align-items: center;
+} 
+
+#navbar_right button {
+    font-size: 14px;
+    margin-left: 10px;
+}

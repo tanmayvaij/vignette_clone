@@ -1,5 +1,6 @@
 import BarChart from "./components/BarChart"
 import Navbar from "./components/Navbar"
+import Features from "./pages/Features"
 import Home from "./pages/Home"
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
         <>
             <Navbar/>
             <Home/>
+            <Features/>
         </>
     )
 }
