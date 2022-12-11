@@ -174,3 +174,53 @@
 #buy_btn span, #check_btn span {
     margin-left: 10px;
 }
+
+#features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#features {
+    background-color: #0085ff;
+    padding-top: 30px;
+}
+
+#features > div {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 30px;
+    border-radius: 64px;
+    top: -90px;
+    position: relative;
+}
+
+#features > div > * {
+    margin: 30px;
+}
+
+.f_img_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature_img {
+    width: 120px;
+    margin-bottom: 25px;
+}
+
+.feature_h3 {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.feature_p {
+    color: #00000080;
+    font-size: 20px;
+}
