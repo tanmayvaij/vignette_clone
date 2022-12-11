@@ -359,4 +359,10 @@
     #navbar {
         padding-left: 130px;
     }
+    #features {
+        padding: 0 140px;
+    }
+    #features > div {
+        top: -60px;
+    }
 }
