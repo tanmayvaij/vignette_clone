@@ -4,7 +4,7 @@ const Features = () => {
 
             <div>
 
-                <div>
+                <div className="f_block">
                     <div className="f_img_block">
                         <img className="feature_img" src="1.webp" alt="" />
                     </div>
@@ -14,7 +14,7 @@ const Features = () => {
                     </p>
                 </div>
 
-                <div>
+                <div className="f_block">
                     <div className="f_img_block">
                         <img className="feature_img" src="2.webp" alt="" />
                     </div>
@@ -24,7 +24,7 @@ const Features = () => {
                     </p>
                 </div>
 
-                <div>
+                <div className="f_block">
                     <div className="f_img_block">
                         <img className="feature_img" src="3.webp" alt="" />
                     </div>

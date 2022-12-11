@@ -6,6 +6,7 @@
 
 *{
     font-family: 'Montserrat', sans-serif;
+    transition: 0.2s linear;
 }
 
 #home {
@@ -14,6 +15,8 @@
     background: url("../public/section-main.webp") center center no-repeat;
     background-size: cover;
 }
+
+/* --------  Navbar ------------ */
 
 #navbar {
     position: fixed;
@@ -53,6 +56,58 @@
     margin-left: 10px;
 }
 
+#price_btn {
+    padding: 12px 25px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+}
+
+#navbar_right_2 {
+    display: none;
+}
+
+#vig_btn {
+    display: flex;
+    align-items: center;
+    background-color: #ff007a;
+    border-radius: 50px;
+    padding: 12px 25px;
+    margin-left: 10px;
+}
+
+#vig_btn span {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+@media (min-width: 361px) {
+    #navbar {
+        height: 64px;
+    }
+    #navbar_left span {
+        font-size: 28px;
+    }
+    #navbar_left b {
+        font-size: 21px;
+    }
+    #navbar_right {
+        padding: 12px 25px;
+    }
+}
+
+@media (min-width: 681px) {
+    #navbar_right {
+        display: none;
+    }
+    #navbar_right_2 {
+        display: flex;
+    }
+}
+
+/* --------  Section Main Left ------------ */
+
 #section_main_left > div {
     text-align: center;
     padding: 0 30px;
@@ -87,6 +142,17 @@
     margin-bottom: 25px;
 }
 
+@media (min-width: 431px) {
+    #section_main_left h1 {
+        font-size: 3rem;
+    }
+    #section_main_left h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* --------  Section Main Right ------------ */
+
 #section_main_right > div {
     display: flex;
     align-items: center;
@@ -103,7 +169,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 5px;
+    margin: 10px;
 }
 
 #car {
@@ -143,6 +209,15 @@
     background-color: #fbd300;
 }
 
+@media (min-width: 420px) {
+    #section_main_right {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+}
+
+/* --------  Section Main Action Page ------------ */
+
 #section_main_action > div {
     font-size: 16px;
     display: flex;
@@ -175,6 +250,9 @@
     margin-left: 10px;
 }
 
+
+/* --------  Feature Page ------------ */
+
 #features {
     display: flex;
     align-items: center;
@@ -195,7 +273,7 @@
     text-align: center;
     margin: 0 30px;
     border-radius: 64px;
-    top: -90px;
+    top: -95px;
     position: relative;
 }
 
@@ -223,4 +301,62 @@
 .feature_p {
     color: #00000080;
     font-size: 20px;
+}
+
+@media (min-width: 781px) {
+    #home > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #section_main_left > div {
+        text-align: left;
+    }
+    #section_main_left h3 {
+        justify-content: start;
+    }
+    #section_main_action > div {
+        flex-direction: row;
+    }
+    #buy_btn, #check_btn {
+        width: 210px;
+        padding: 12px 25px;
+        margin: 5px;
+    }
+    #buy_btn span, #check_btn span {
+        margin-left: 2px;
+    }
+    #section_main_left h2 {
+        margin-bottom: 0;
+    }
+    #features > div > * {
+        width: 25%;
+    }
+    .feature_h3 {
+        font-size: 20px;
+    }
+    .feature_p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:1121px) {
+    #section_main_left h1 {
+        font-size: 4rem;
+    }
+    #section_main_left h2 {
+        margin-bottom: 35px;
+    }
+    #section_main_left h3 {
+        margin-top: 60px;
+    }
+    #home > div {
+        margin: 0 130px;
+    }
+    #navbar_right_2  {
+        margin-right: 270px;
+    }
+    #navbar {
+        margin-left: 130px;
+    }
 }
