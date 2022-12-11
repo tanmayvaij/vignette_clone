@@ -11,7 +11,7 @@ const SectionMainLeft = () => {
 
                 <h1>EUROPEAN E-VIGNETTES</h1>
 
-                <h2 className="text-[1.2rem] mb-[25px] text-[#ffffff80]">
+                <h2>
                     The easiest way to buy vignettes in Slovenia, Austria, Czech, Slovakia and Hungary
                 </h2>
 

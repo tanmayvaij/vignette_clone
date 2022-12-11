@@ -86,3 +86,59 @@
     color: #ffffff80;
     margin-bottom: 25px;
 }
+
+#section_main_right > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    margin: 0 30px;
+}
+
+#car, #bike, #van {
+    border-radius: 35px;
+    height: 110px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+#car {
+    background-color: #89d5ff4d;
+}
+
+#bike {
+    background-color: #deb5ff4d;
+}
+
+#van {
+    background-color: #fff3b54d;
+}
+
+#section_main_right img {
+    width: 60px;
+}
+
+#section_main_right span {
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 110px;
+    padding: 0 9px;
+    border-radius: 50px;
+}
+
+#car span {
+    background-color: #4fc1ff;
+}
+
+#bike span {
+    background-color: #b300df;
+}
+
+#van span {
+    background-color: #fbd300;
+}
