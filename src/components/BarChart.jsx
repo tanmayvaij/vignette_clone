@@ -6,9 +6,9 @@ import {
     Title,
     Tooltip,
     Legend,
-} from 'chart.js';
+} from 'chart.js'
 
-import { Bar } from 'react-chartjs-2';
+import { Bar } from 'react-chartjs-2'
 
 ChartJS.register(
     CategoryScale,
@@ -17,19 +17,23 @@ ChartJS.register(
     Title,
     Tooltip,
     Legend
-);
+)
 
 const options = { 
+
     indexAxis: 'y', // Changing the index axis to y for converting to horizontal chart 
+
     scales: {
         y: {
             ticks: {
                 font: {
-                    weight: "bold" //this change the font size
+                    size: 14, // this changes the font size
+                    weight: "bold" // this changes the font weight
                 }
             }
         }
     }
+
 }
 
 const data = {
@@ -69,10 +73,6 @@ const data = {
 
 }
 
-const BarChart = () => {
-    return (
-        <Bar options={options} data={data} />
-    )
-}
+const BarChart = () => <Bar options={options} data={data} />
 
 export default BarChart

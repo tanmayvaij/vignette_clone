@@ -1,8 +1,13 @@
-import BarChart from "./BarChart"
+import BarChart from "./components/BarChart"
+import Navbar from "./components/Navbar"
+import Home from "./pages/Home"
 
 const App = () => {
     return (
-        <BarChart/>
+        <>
+            <Navbar/>
+            <Home/>
+        </>
     )
 }
 
