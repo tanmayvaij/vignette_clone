@@ -142,3 +142,35 @@
 #van span {
     background-color: #fbd300;
 }
+
+#section_main_action > div {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+#buy_btn, #check_btn {
+    border-radius: 50px;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#buy_btn {
+    color: white;
+    background-color: #0066ff;
+}
+
+#check_btn {
+    background-color: white;
+}
+
+#buy_btn span, #check_btn span {
+    margin-left: 10px;
+}
