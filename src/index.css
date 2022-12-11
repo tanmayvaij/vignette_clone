@@ -52,3 +52,37 @@
     font-size: 14px;
     margin-left: 10px;
 }
+
+#section_main_left > div {
+    text-align: center;
+    padding: 0 30px;
+}
+
+#section_main_left h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#section_main_left h3 img {
+    width: 22px;
+    margin-right: 8px;
+}
+
+#section_main_left h3 span {
+    color: #5bff9d;
+}
+
+#section_main_left h1 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+#section_main_left h2 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #ffffff80;
+    margin-bottom: 25px;
+}
