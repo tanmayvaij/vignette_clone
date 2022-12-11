@@ -354,9 +354,9 @@
         margin: 0 130px;
     }
     #navbar_right_2  {
-        margin-right: 270px;
+        padding-right: 130px;
     }
     #navbar {
-        margin-left: 130px;
+        padding-left: 130px;
     }
 }
