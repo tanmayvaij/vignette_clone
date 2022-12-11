@@ -8,10 +8,10 @@
 ### Below are some screenshots of the application
 
 <img src="./public/ss1.png" />
-<br/><br/><br/>
+<br/>
 
 <img src="./public/ss2.png" />
-<br/><br/><br/>
+<br/>
 
 <img src="./public/ss3.png" />
-<br/><br/><br/>
+<br/>
