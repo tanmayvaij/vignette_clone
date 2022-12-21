@@ -1,7 +1,6 @@
-# Ignis Tech Assignment
+# Vignette Clone
 
-### 1. Clone of <a href="https://vignette.id/landing">https://vignette.id/landing</a>
-### 2. A Horizontal Bar Chart
+### Clone of <a href="https://vignette.id/landing">https://vignette.id/landing</a>
 
 ### Below are some screenshots of the application
 
