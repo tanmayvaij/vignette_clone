@@ -1,5 +1,7 @@
 # Vignette Clone
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c31eab91-2a99-4ee6-a7b0-4a8b4a305c4c/deploy-status)](https://app.netlify.com/sites/vignette-clone/deploys)
+
 ### Clone of <a href="https://vignette.id/landing">https://vignette.id/landing</a>
 
 ### Below are some screenshots of the application
